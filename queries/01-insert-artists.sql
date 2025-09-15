@@ -20,3 +20,5 @@ INSERT INTO ARTISTAS(NOME, TIPO, MEMBROS, GENERO_MUSICAL, PAIS_ORIGEM, ANO_INICI
 ('Billie Eilish', 'Solo', 'Billie Eilish', 'Indie Pop', 'Estados Unidos', 2015, 'bad guy', TRUE),
 ('Linkin Park', 'Banda', '6', 'Rock', 'Estados Unidos', 1996, 'In the End', FALSE),
 ('The Beatles', 'Banda', '4', 'Rock', 'Reino Unido', 1960, 'Here Comes the Sun', FALSE);
+
+SELECT COUNT(*) AS TOTAL_ARTISTAS FROM ARTISTAS
